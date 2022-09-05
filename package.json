@@ -1,6 +1,6 @@
 {
   "name": "hookstate-cookies",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Hookstate plugin for persistence using cookies.",
   "main": "dist/index.js",
   "author": "Richard Xiong",
