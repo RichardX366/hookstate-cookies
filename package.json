@@ -15,7 +15,6 @@
   "devDependencies": {
     "@hookstate/core": "^4.0.0-rc21",
     "@types/cookie": "^0.5.1",
-    "@types/react-dom": "^18.0.6",
     "@types/web": "^0.0.72"
   },
   "files": [
