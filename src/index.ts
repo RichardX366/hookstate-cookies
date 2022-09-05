@@ -10,14 +10,14 @@ const CookiePersistence = (key: string) => (): Plugin => ({
       state.set(JSON.parse(persisted));
     } else if (!state.promised && !state.error) {
       document.cookie = serialize(key, JSON.stringify(state.value), {
-        expires: new Date(Date.now() + 1000 * 60 * 60 * 24 * 365 * 100),
+        expires: new Date(Date.now() + 9e10 * 1000),
       });
     }
     return {
       onSet: function (p) {
         if ('state' in p) {
           document.cookie = serialize(key, JSON.stringify(state.value), {
-            expires: new Date(Date.now() + 1000 * 60 * 60 * 24 * 365 * 100),
+            expires: new Date(Date.now() + 9e10 * 1000),
           });
         } else {
           document.cookie = serialize(key, '', {
