@@ -1,0 +1,20 @@
+{
+  "name": "hookstate-cookies",
+  "version": "1.0.0",
+  "description": "Hookstate plugin for persistence using cookies.",
+  "main": "dist/index.js",
+  "author": "Richard Xiong",
+  "license": "MIT",
+  "dependencies": {
+    "cookie": "^0.5.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@hookstate/core": "^4.0.0-rc21",
+    "@types/cookie": "^0.5.1",
+    "@types/react-dom": "^18.0.6",
+    "@types/web": "^0.0.72"
+  }
+}
